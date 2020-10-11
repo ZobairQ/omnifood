@@ -137,9 +137,7 @@ a:hover,
 a:active {
   color: #555;
   border-bottom: 1px solid transparent;
-
 }
-
 
 /* ------------------------------------------- */
 /* BUTTONS */
@@ -322,7 +320,7 @@ header {
 }
 
 .btn-app:link,
-.btn-app:visited{
+.btn-app:visited {
   border: 0;
 }
 
@@ -341,7 +339,7 @@ header {
   margin-bottom: 15px;
 }
 
-.city-feature{
+.city-feature {
   margin-bottom: 5px;
 }
 
@@ -349,8 +347,9 @@ header {
 /* TESTIMONIALS */
 /* ------------------------------------------- */
 
-.section-testimonials{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(./img/back-customers.jpg);
+.section-testimonials {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(./img/back-customers.jpg);
   background-size: cover;
   color: #fff;
   background-attachment: fixed;
@@ -363,13 +362,13 @@ header {
   position: relative;
   margin-top: 40px;
 }
-.section-testimonials blockquote:before{
+.section-testimonials blockquote:before {
   content: "\201C";
   font-size: 500%;
   display: block;
   position: absolute;
   top: -5px;
-  left:-5px;
+  left: -5px;
 }
 .section-testimonials cite {
   font-size: 90%;
@@ -377,10 +376,65 @@ header {
   display: block;
 }
 
-
 .section-testimonials cite img {
   height: 45px;
   border-radius: 50%;
   margin-right: 10px;
   vertical-align: middle;
+}
+
+/* ------------------------------------------- */
+/* PLANS */
+/* ------------------------------------------- */
+
+.section-plans {
+  background-color: #f4f4f4;
+}
+
+.plan-box {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 100%;
+  margin-left: 5%;
+  box-shadow: 0 2px 2px #efefef;
+}
+
+.plan-box div {
+  padding: 15px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-box div:first-child {
+  background-color: #fcfcfc;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.plan-box div:last-child {
+  text-align: center;
+  border: none;
+}
+
+.plan-price {
+  font-size: 300%;
+  font-weight: 100;
+  margin-bottom: 10px;
+  color: #e67e22;
+}
+
+.plan-price span {
+  font-size: 30%;
+  font-weight: 300;
+}
+
+.plan-price-meal {
+  font-size: 80%;
+}
+
+.plan-box ul {
+  list-style: none;
+}
+
+.plan-box ul li {
+  padding: 5px 0;
 }
